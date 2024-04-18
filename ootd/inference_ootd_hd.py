@@ -24,10 +24,10 @@ import torch.nn.functional as F
 from transformers import AutoProcessor, CLIPVisionModelWithProjection
 from transformers import CLIPTextModel, CLIPTokenizer
 
-VIT_PATH = "/workspace/OOTDiffusion/checkpoints/clip-vit-large-patch14"
-VAE_PATH = "/workspace/OOTDiffusion/checkpoints/ootd"
-UNET_PATH = "/workspace/OOTDiffusion/checkpoints/ootd/ootd_hd/checkpoint-36000"
-MODEL_PATH = "/workspace/OOTDiffusion/checkpoints/ootd"
+VIT_PATH = "/workspace/models/clip-vit-large-patch14"
+VAE_PATH = "/workspace/models/ootd"
+UNET_PATH = "/workspace/models/ootd/ootd_hd/checkpoint-36000"
+MODEL_PATH = "/workspace/models/ootd"
 
 class OOTDiffusionHD:
 
